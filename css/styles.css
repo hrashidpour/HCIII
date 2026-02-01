@@ -619,7 +619,7 @@ main {
     right: 0;
     bottom: 0;
     width: min(260px, 80vw);
-    padding: 1rem 1.25rem;
+    padding: 1.25rem 1.5rem;
     background-color: #020617;
     box-shadow: -12px 0 30px rgba(15, 23, 42, 0.25);
     display: flex;
@@ -631,16 +631,14 @@ main {
 
   .main-nav a {
     margin: 0.35rem 0;
-    padding: 0.6rem 0.75rem;
-    border-radius: 0.6rem;
+    padding: 0.4rem 0;
     display: block;
     color: #e5e7eb;
-    background-color: rgba(15, 23, 42, 0.9);
   }
 
   .main-nav a:hover,
   .main-nav a:focus {
-    background-color: rgba(30, 64, 175, 0.9);
+    color: #f97316;
     text-decoration: none;
   }
 
