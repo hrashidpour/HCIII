@@ -131,7 +131,7 @@ ul {
 .hero {
   position: relative;
   padding: 4.5rem 0 5rem;
-  min-height: 420px;
+  min-height: 70vh;
   color: #f9fafb;
 }
 
@@ -155,7 +155,7 @@ ul {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(120deg, rgba(17, 24, 39, 0.75), rgba(24, 24, 27, 0.4));
+  background: linear-gradient(120deg, rgba(15, 23, 42, 0.9), rgba(24, 24, 27, 0.7));
   z-index: 0;
 }
 
@@ -163,6 +163,12 @@ ul {
   position: absolute;
   inset: 0;
   z-index: 0;
+}
+
+.hero-with-slider .slider,
+.hero-with-slider .slide,
+.hero-with-slider .slide img {
+  height: 100%;
 }
 .avatar-xl img,
 .avatar-md img,
@@ -182,12 +188,12 @@ ul {
 
 .lead {
   font-size: 1.05rem;
-  color: #e5e7eb;
+  color: #f9fafb;
 }
 
 .hero-sub {
   font-size: 0.98rem;
-  color: #e5e7eb;
+  color: #f9fafb;
   max-width: 44rem;
 }
 
