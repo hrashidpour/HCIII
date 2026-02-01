@@ -532,7 +532,7 @@ ul {
 
 .hc-tag {
   display: inline-block;
-  min-width: 7rem;
+  min-width: 5rem;
   font-weight: 600;
   font-size: 0.9rem;
   color: #111827;
