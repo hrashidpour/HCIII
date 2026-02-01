@@ -153,6 +153,9 @@ main {
   background: transparent;
   cursor: pointer;
   padding: 0.25rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .menu-bar {
@@ -595,10 +598,18 @@ main {
   }
 
   .main-nav {
-    display: none;
+    position: fixed;
+    top: 3.75rem;
+    right: 0;
+    bottom: 0;
+    width: min(260px, 80vw);
+    padding: 1rem 1.25rem;
+    background-color: #f9fafb;
+    box-shadow: -12px 0 30px rgba(15, 23, 42, 0.25);
+    display: flex;
     flex-direction: column;
-    width: 100%;
-    padding-top: 0.75rem;
+    transform: translateX(100%);
+    transition: transform 200ms ease-out;
   }
 
   .main-nav a {
@@ -606,7 +617,7 @@ main {
   }
 
   body.nav-open .main-nav {
-    display: flex;
+    transform: translateX(0);
   }
 
   .hero-inner {
