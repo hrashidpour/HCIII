@@ -100,11 +100,16 @@ ul {
 
 .logo {
   display: inline-flex;
-  align-items: baseline;
+  align-items: center;
   font-weight: 700;
   letter-spacing: 0.08em;
   color: #020617;
   text-transform: uppercase;
+}
+
+.logo-img {
+  height: 32px;
+  width: auto;
 }
 
 .logo-caret {
